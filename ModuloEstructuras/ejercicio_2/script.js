@@ -27,7 +27,7 @@ function reemplazar(pila, nuevo, viejo){
     return pila;
 }
 
-//Generamos una pila con números del 0 al 20.
+//Generamos una pila con números del 0 al 10.
 let pilita = [];
 for(let i=0; i<20; i++){
     pilita.push(Math.round(Math.random()*10));
