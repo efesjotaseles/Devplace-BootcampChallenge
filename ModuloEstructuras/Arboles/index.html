@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árboles - General</title>
+</head>
+<body>
+    <section class="ImagenArbol">
+        <img src="Arbol.png" alt="Imágen del árbol en cuestión." width="400px">
+    </section>
+    <section class="Preguntas">
+        <p>1) El nodo raíz es el nodo A.</p>
+        <p>2) Hay 7 caminos de longitud 3: </p>
+        <ul>
+            <li>(A &rarr; B &rarr; F &rarr; G)</li>
+            <li>(B &rarr; F &rarr; G &rarr; H)</li>
+            <li>(A &rarr; C &rarr; J &rarr; K)</li>
+            <li>(C &rarr; J &rarr; K &rarr; L)</li>
+            <li>(C &rarr; J &rarr; K &rarr; M)</li>
+            <li>(A &rarr; E &rarr; N &rarr; P)</li>
+            <li>(A &rarr; E &rarr; N &rarr; Q)</li>
+        </ul>
+        <p>3) La secuencia HGFBACI no sería un camino ya que al llegar al nodo A cambia de sentido.</p>
+        <p>4) Los nodos ancestros de K son: J, K, C y A.</p>
+        <p>5) No estoy seguro de lo que es un ancestro <i>propio</i>. Si significa el padre de N, entonces es el nodo E. Si no, entonces son los nodos E y A.</p>
+        <p>6) El nodo M no tiene descendientes.</p>
+        <p>7) Las hojas son aquellos nodos que no poseen descendientes.</p>
+        <p>8) El nodo C tiene una altura de 3.</p>
+        <p>9) El árbol tiene una altura de 4.</p>
+        <p>10) El nodo C tiene una profundidad de 1.</p>
+        <p>11) El nodo hermano a la derecha de D es el nodo E.</p>
+        <p>12) No. I no es hermano de F porque no tienen el mismo nodo padre.</p>
+        <p>13) Si el árbol es un árbol ordenado, entonces si, el nodo F está a la izquierda de J.</p>
+        <p>14) Como la raíz posee 4 hijos, no termino de entender cuál es el criterio de ordenamiento, y al estar K ni a la derecha o izquierda de J, no sé decir si su hijo, L, está a la derecha de J.</p>
+        <p>15) Nodos a la izquierda de J: C, I, B, F, G y H. Por lo dicho en el punto anterior, no estoy seguro si A está o no a la derecha de J.</p>
+        <p>16) El nodo A tiene 4 nodos hijos: B, C, D y E.</p>
+        <p>17) Listar el árbol...</p>
+        <p><i>(De nuevo, con mis dudas sobre los 4 hijos de A, lo que no lo haría un árbol binario, y qué representan las ramas que van directamente hacia abajo, ni a la izquierda o la derecha)</i></p>
+        <ul>
+            <li>Preorden: A, B, F, G, H, C, I, J, K, L, M, D, E, N, P, Q.</li>
+            <li>Postorden: G, H, F, B, A, I, C, J, L, K, M, D, E, P, N, Q.</li>
+            <li>Inorden: H, G, F, B, I, L, M, K, J, C, D, P, Q, N, E, A.</li>
+        </ul>
+    </section>
+    
+
+</body>
+</html>
